@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100vh;
+    background-color: #4D4D4D;
+}
+
+.display{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+   
+
+}
+
+form{
+   
+
+    background-color:#B46060 ;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+
+    height: 400px;
+    width: 400px;
+}
+
+    input{
+        padding: 10px 10px;
+        background-color:#FFBF9B ;
+        border-radius:10px ;
+        border: none;
+    }
+    button{
+        padding: 13px 13px;
+        color:#FFF4E0 ;
+        background-color: #4D4D4D;
+        border: none;
+    }
+
+
+
+.caixa-resposta{
+    background-color:#B46060 ;
+    padding: 10px;
+
+    
+    height: 400px;
+    width: 400px;
+}
+
+
+header{
+    margin-bottom: 50PX ;
+}
